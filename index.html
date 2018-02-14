@@ -1,0 +1,50 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Login</title>
+    <link href="css/default.css" rel="stylesheet" />
+</head>
+<body>
+    <!--page-->
+    <div class="background">
+        <div>
+            <!--button-->
+            <div class="container_btn" id="btn_login" onclick="loginModal();">
+                <div class="color_btn"></div>
+                <button class="txt_btn" type="submit">Login</button>
+            </div>
+        </div>
+        <div id="login" class="modal" style="display:none;">
+            <form class="container width_login " name="loginform" onsubmit="return loginSubmit();">
+                <div class="title p26">Login</div>
+                <!--username-->
+                <div>
+                    <span class="label p11">Username</span>
+                    <div class="wrap_input">
+                        <input class="input" type="text" name="username" id="username" />
+                    </div>
+                </div>
+                <!--password-->
+                <div>
+                    <span class="label p11">Password</span>
+                    <div class="wrap_input">
+                        <input class="input" type="password" name="password" id="password" />
+                    </div>
+                </div>
+                <!--button-->
+                <div class="container_btn">
+                    <div class="color_btn"></div>
+                    <button class="txt_btn" type="submit">Login</button>
+                </div>
+                <!--create account-->
+                <div class="center_text p115">
+                    <span class="message_text">Don’t have an account?</span>
+                    <a class="link_text" href="#">Sign up</a>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>
