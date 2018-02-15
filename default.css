@@ -1,4 +1,4 @@
-﻿* {
+* {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
@@ -169,4 +169,22 @@ td {
     padding-top: 30px;
     padding-left: 35%;
     position: fixed;
+}
+.btn_small {
+    width:15%;
+
+}
+hr {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+    border-color: rgba(0,0,0,0.4);
+}
+.p15 {
+    padding-top:15px;
+
 }
